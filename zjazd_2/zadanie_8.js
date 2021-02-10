@@ -18,7 +18,7 @@ for (let i = n; i > 0; i--){
     tempStar += stars
 }
 
-
+console.log(triangle)
 /*
 // Trójkąt wersja 2
 
@@ -34,4 +34,6 @@ for (let i = n; i > 0; i--){
     tempStar = tempStar.split(' ').join('')
     tempStar += stars
 }
+
+console.log(triangle)
 */
