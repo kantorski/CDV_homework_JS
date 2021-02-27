@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sketchbook</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/1e30904fa5.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="content-box">
+        <div class="style-box">
+            <h2>Styles</h2>
+            <div class="shape-box">
+                <p class="rectangle shapes chosen">rectangle</p>
+                <p class="circle shapes chosen">ellipse</p>
+                <p class="line shapes chosen">line</p>
+            </div>
+            <div class="color-box">
+                <h2>Colors</h2>
+                <div class="standard-color">
+                    <p class="red squares chosen"></p>
+                    <p class="green squares chosen"></p>
+                    <p class="yellow squares chosen"></p>
+                    <p class="blue squares chosen"></p>
+                    <p class="black squares chosen"></p>
+                </div>
+                <div class="make-color">
+                    <h3>RGB</h3>
+                    <form action="">
+                        <input type="text" class="input-1">
+                        <input type="text" class="input-2">
+                        <input type="text" class="input-3">
+                    </form>
+                    <button class="btnRgb chosen">make color</button>
+                </div>
+            </div>
+            <div class="selected-box">
+                <h3 class="selected">Selected: <span class="selected-txt"></span></h3>
+            </div>
+        </div>
+        <div class="sketch-box">
+            <canvas id="canvas" width="1000px" height="100vh"></canvas>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
